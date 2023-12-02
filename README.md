@@ -1,6 +1,6 @@
 # Backend 01
 
-The servers provides an API to manage CRUD requests in a basic books database.
+The server provides an API to manage CRUD requests in a basic books database.
 
 This repository uses express to manage a node server and its API REST requests.
 
