@@ -1,0 +1,94 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "books",
+    "dateExported": "2023-12-02T16:39:41.062Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a1ae6a32-0500-4f8d-be00-d8c253acd904",
+            "colId": "795c0ea9-7aee-4796-8eb4-9cfc8abe5689",
+            "containerId": "",
+            "name": "read-books",
+            "url": "http://localhost:3000/books",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-02T14:20:09.329Z",
+            "modified": "2023-12-02T14:20:16.118Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8b884a5d-88e0-4815-9e95-90c7f4798611",
+            "colId": "795c0ea9-7aee-4796-8eb4-9cfc8abe5689",
+            "containerId": "",
+            "name": "read-book",
+            "url": "http://localhost:3000/books/9",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-02T14:37:49.157Z",
+            "modified": "2023-12-02T16:19:50.472Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a3397254-14ba-48b3-9f25-85cdb70ef89e",
+            "colId": "795c0ea9-7aee-4796-8eb4-9cfc8abe5689",
+            "containerId": "",
+            "name": "create-book",
+            "url": "http://localhost:3000/books",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-12-02T15:10:52.155Z",
+            "modified": "2023-12-02T16:04:32.163Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"The Alchemist\",\n  \"author\": \"Paulo Coelho\",\n  \"year\": \"1988\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9b417f34-f4a4-45e4-9613-3fd5b5cd630a",
+            "colId": "795c0ea9-7aee-4796-8eb4-9cfc8abe5689",
+            "containerId": "",
+            "name": "update-book",
+            "url": "http://localhost:3000/books/11",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-12-02T15:14:33.089Z",
+            "modified": "2023-12-02T16:13:48.374Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Frankenstein\",\n  \"author\": \"Mary Shelley\",\n  \"year\": \"1818\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c3dd3b05-f72b-4714-89a1-31c4221c78cd",
+            "colId": "795c0ea9-7aee-4796-8eb4-9cfc8abe5689",
+            "containerId": "",
+            "name": "delete-book",
+            "url": "http://localhost:3000/books/5",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-12-02T15:15:36.132Z",
+            "modified": "2023-12-02T16:35:55.608Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
