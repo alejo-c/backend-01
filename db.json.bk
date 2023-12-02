@@ -1,0 +1,64 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "year": 1960
+        },
+        {
+            "id": 2,
+            "title": "1984",
+            "author": "George Orwell",
+            "year": 1949
+        },
+        {
+            "id": 3,
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "year": 1925
+        },
+        {
+            "id": 4,
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1813
+        },
+        {
+            "id": 5,
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "year": 1951
+        },
+        {
+            "id": 6,
+            "title": "To the Lighthouse",
+            "author": "Virginia Woolf",
+            "year": 1927
+        },
+        {
+            "id": 7,
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "year": 1932
+        },
+        {
+            "id": 8,
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "year": 1937
+        },
+        {
+            "id": 9,
+            "title": "One Hundred Years of Solitude",
+            "author": "Gabriel García Márquez",
+            "year": 1967
+        },
+        {
+            "id": 10,
+            "title": "The Lord of the Rings",
+            "author": "J.R.R. Tolkien",
+            "year": 1954
+        }
+    ]
+}
